@@ -2,18 +2,7 @@
 #include <math.h>
 #include <string.h>
 #include <stdlib.h>
-
-struct Stack
-    {
-    int* data;
-    size_t size;
-    size_t capacity;
-    };
-
-int StackPop(Stack *pStk);
-void StackPush(Stack *pStk, int elem);
-void StackDestructor(Stack *pStk);
-void StackConstructor(Stack *pStk, int initcapacity);
+#include "Stack.h"
 
 int main(void)
     {
